@@ -21,11 +21,10 @@
     padding: 20px;
     text-align: center;
     font-size: 35px;
+    display: block;
 }
 
-img {
- border-radius: 20%;
-}
+
 
 footer{
     background-color: gray;
@@ -46,6 +45,7 @@ body{
     float: left;
     width: 758px;
     height: 500px;
+    
 }
 
 .sidebar {
@@ -102,9 +102,6 @@ li a:hover {
     margin-right: 10px;
 }
 
-.footer {
-    background-color: grey;
-    text-align: center;
-    padding: 10px;
-    font-size: 10px;
+footer{
+    display: block;
 }
