@@ -79,5 +79,5 @@ li a:hover {
 .nav li {
     list-style: none;
     display: inline;
-    margin-right: 10px; /* Untuk memberikan jarak antara setiap item navbar */
+    margin-right: 10px;
 }
