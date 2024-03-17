@@ -8,11 +8,23 @@
     width: 100%;
 }
 
-.container{
+.container {
+
     margin: auto;
     width: 100%;
     height: 222px;
-    display: flex;
+    
+}
+
+.header {
+    width: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
+img {
+ border-radius: 20%;
 }
 
 footer{
@@ -28,12 +40,20 @@ body{
     margin: 0;
 }
 
-article{
-    background-color: aqua;
+.article{
+    background-color: #fcf0dd;
+    padding: 40px;
+    float: left;
+    width: 758px;
+    height: 500px;
+}
+
+.sidebar {
+    background-color: #ffebcd;
     padding: 40px;
     float: left;
     width: 600px;
-    height: 500px;
+    height: 500px; 
 }
 
 img{
@@ -73,11 +93,18 @@ li a {
 }
   
 li a:hover {
-    background-color: #111;
+    background-color: #494949;
 }
 
 .nav li {
     list-style: none;
     display: inline;
     margin-right: 10px;
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
 }
